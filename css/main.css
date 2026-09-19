@@ -66,6 +66,11 @@ main p{
     align-items: center;
 }
 
+.text-bold {
+    font-weight: bold;
+	color: #ef86a1;
+}
+
 #modal-txt-wrap h1{
     font-size: 40px;
 	color: rgb(30, 30, 30);
