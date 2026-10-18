@@ -23,6 +23,16 @@ galleryItems.forEach(item => {
         //モーダルのタイトルタグにタイトルを設定
         modalTitle.textContent = titleCon;
         switch(titleCon){
+            case "パジャマ狐ちゃん":
+                modalCon1.textContent = "パジャマの白無垢狐ちゃん";
+                modalCon2.textContent = "FANBOXに成人向け差分あり";
+                modalCon3.textContent = " ▷https://elega.fanbox.cc/posts/12736989";
+                break;
+            case "September🐾":
+                modalCon1.textContent = "さびしい月のにゃんこ『りり』ちゃん";
+                modalCon2.textContent = "";
+                modalCon3.textContent = "";
+                break;
             case "もちもちばにー💝":
                 modalCon1.textContent = "もちもちふわふわバニーの『まんさ』ちゃん";
                 modalCon2.textContent = "FANBOXに成人向け差分あり (全体公開)";
@@ -47,6 +57,11 @@ galleryItems.forEach(item => {
                 modalCon1.textContent = "雨の日濡れシャツの『りり』ちゃん";
                 modalCon2.textContent = "FANBOXに成人向け差分あり";
                 modalCon3.textContent = " ▷https://elega.fanbox.cc/posts/12112126";
+                break;
+            case "潭之幽様 Skebリクエスト":
+                modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を2枚描かせていただきました。";
+                modalCon2.textContent = "(2026)";
+                modalCon3.textContent = "";
                 break;
             case "白玻フスセ様 Skebリクエスト":
                 modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を多数描かせていただきました。";
