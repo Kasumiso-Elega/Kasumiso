@@ -23,6 +23,11 @@ galleryItems.forEach(item => {
         //モーダルのタイトルタグにタイトルを設定
         modalTitle.textContent = titleCon;
         switch(titleCon){
+            case "潭之幽様 Skebリクエスト":
+                modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を2枚描かせていただきました。";
+                modalCon2.textContent = "(2026)";
+                modalCon3.textContent = "";
+                break;
             case "白玻フスセ様 Skebリクエスト":
                 modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を多数描かせていただきました。";
                 modalCon2.textContent = "(2026)";
