@@ -23,6 +23,16 @@ galleryItems.forEach(item => {
         //モーダルのタイトルタグにタイトルを設定
         modalTitle.textContent = titleCon;
         switch(titleCon){
+            case "パジャマ狐ちゃん":
+                modalCon1.textContent = "パジャマの白無垢狐ちゃん";
+                modalCon2.textContent = "FANBOXに成人向け差分あり";
+                modalCon3.textContent = " ▷https://elega.fanbox.cc/posts/12736989";
+                break;
+            case "September🐾":
+                modalCon1.textContent = "さびしい月のにゃんこ『りり』ちゃん";
+                modalCon2.textContent = "";
+                modalCon3.textContent = "";
+                break;
             case "もちもちばにー💝":
                 modalCon1.textContent = "もちもちふわふわバニーの『まんさ』ちゃん";
                 modalCon2.textContent = "FANBOXに成人向け差分あり (全体公開)";
